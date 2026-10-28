@@ -1,0 +1,37 @@
+{
+  "name": "church-platform",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@opentelemetry/api": "^1.9.1",
+    "@types/marked": "^5.0.2",
+    "@types/turndown": "^5.0.6",
+    "@uiw/react-md-editor": "^4.1.0",
+    "firebase": "^12.11.0",
+    "firebase-admin": "^13.7.0",
+    "marked": "^18.0.2",
+    "next": "14.2.3",
+    "pdf-lib": "^1.17.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-markdown": "^10.1.0",
+    "react-quill": "^2.0.0",
+    "remark-gfm": "^4.0.1",
+    "stripe": "^22.0.0",
+    "turndown": "^7.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3",
+    "typescript": "^5"
+  }
+}

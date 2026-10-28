@@ -1,0 +1,56 @@
+[
+  {
+    "id": "eucharist",
+    "name": "Eucharist (Holy Communion)",
+    "name_am": "ቅዱስ ቁርባን",
+    "category": "Sacrament",
+    "defaultEnabled": true,
+    "defaultInstructions": "1. Speak with your Confessor (Spiritual Father) and receive absolution prior to partaking.\n2. Observe a complete fast from food and water starting from midnight (or at least 18 hours as guided by your Spiritual Father).\n3. Arrive before the reading of the Gospel during Divine Liturgy (Kidassie) and wear traditional white attire (Netela/Gabi).",
+    "defaultInstructions_am": "1. ከመቁረብዎ በፊት ከንስሐ አባትዎ ጋር ተገናኝተው ንስሐ ይግቡ።\n2. ከእኩለ ሌሊት ጀምሮ (ወይም እንደ ንስሐ አባትዎ ትእዛዝ) ከምግብ እና ከውኃ በመጾም ይዘጋጁ።\n3. በቅዳሴ ሰዓት ወንጌል ከመነበቡ በፊት በቤተክርስቲያን ይገኙ፤ ነጭ ልብስ (ነጠላ) ይልበሱ።"
+  },
+  {
+    "id": "infant-baptism",
+    "name": "Infant Baptism (Kristina)",
+    "name_am": "የሕፃናት ጥምቀት (ክርስትና)",
+    "category": "Sacrament",
+    "defaultEnabled": true,
+    "defaultInstructions": "1. Traditionally performed on the 40th day after birth for boys and the 80th day for girls.\n2. Contact the church office at least 2 weeks in advance to register the child and confirm the date.\n3. Select an Orthodox Christian godparent (Kristina Abat for boys / Kristina Enat for girls) who is in good standing.\n4. Bring a new white baptismal garment, a neck cord/cross (Mateb), and candles on the morning of the service.",
+    "defaultInstructions_am": "1. ወንድ ልጅ በተወለደ በ40 ቀኑ፣ ሴት ልጅ በተወለደች በ80 ቀኗ ክርስትና ይነሳሉ።\n2. ከቀኑ ቢያንስ ከ2 ሳምንት በፊት ለቤተክርስቲያን ጽሕፈት ቤት በማሳወቅ ይመዝገቡ።\n3. በኦርቶዶክስ ተዋሕዶ እምነት የጸኑ የክርስትና አባት (ለወንድ) ወይም የክርስትና እናት (ለሴት) ያዘጋጁ።\n4. በዕለቱ ነጭ የጥምቀት ልብስ፣ ማተብ እና ጧፍ ይዘው በጠዋት ይገኙ።"
+  },
+  {
+    "id": "adult-baptism",
+    "name": "Baptism (Youth & Adults)",
+    "name_am": "የዐዋቂዎች ጥምቀት",
+    "category": "Sacrament",
+    "defaultEnabled": true,
+    "defaultInstructions": "1. Schedule an initial meeting with a Church Father or Deacon during Office Hours.\n2. Complete the catechism (foundational faith instruction) classes provided by the church.\n3. Choose a sponsor/godparent and coordinate your baptismal Liturgy date with the clergy.",
+    "defaultInstructions_am": "1. በቅድሚያ በካህናት የቢሮ ሰዓት ከአባቶች ጋር ተገናኝተው ይመካከሩ።\n2. በቤተክርስቲያኗ የሚሰጠውን መሠረታዊ የሃይማኖት ትምህርት ይከታተሉ።\n3. የክርስትና አባት/እናት በማዘጋጀት የጥምቀት ቀንዎን ከካህናት ጋር ይወስኑ።"
+  },
+  {
+    "id": "confession",
+    "name": "Confession & Repentance (Nisiha)",
+    "name_am": "ንስሐ እና መንፈሳዊ ምክር",
+    "category": "Sacrament",
+    "defaultEnabled": true,
+    "defaultInstructions": "1. Book a 1-on-1 appointment or attend open Drop-In hours with a Church Father via the Calendar.\n2. Prepare prayerfully by examining your conscience before the appointment.",
+    "defaultInstructions_am": "1. በቀን መቁጠሪያው (Calendar) ላይ በካህናት የቢሮ ሰዓት ቀጠሮ ይያዙ።\n2. ወደ ንስሐ አባትዎ ከመቅረብዎ በፊት በጸሎት እና ራስን በመመርመር ይዘጋጁ።"
+  },
+  {
+    "id": "holy-matrimony",
+    "name": "Holy Matrimony (Teklil / Marriage)",
+    "name_am": "ሥርዓተ ተክሊል (ቅዱስ ጋብቻ)",
+    "category": "Sacrament",
+    "defaultEnabled": false,
+    "defaultInstructions": "1. Contact the church at least 3–6 months prior to your desired wedding date.\n2. Both bride and groom must complete pre-marital spiritual counseling with their Confessor.\n3. Partake in Holy Communion together during the Teklil Liturgy.",
+    "defaultInstructions_am": "1. ከሠርጉ ቀን ቢያንስ ከ3 እስከ 6 ወራት በፊት ለቤተክርስቲያኗ ያሳውቁ።\n2. ተጋቢዎች ከንስሐ አባታቸው ጋር የቅድመ-ጋብቻ መንፈሳዊ ትምህርት እና ምክር መከታተል ይኖርባቸዋል።\n3. በሥርዓተ ተክሊሉ ዕለት በቅዱስ ቁርባን ይከብራሉ።"
+  },
+  {
+    "id": "memorial-service",
+    "name": "Memorial & Funeral Prayers (Fit'hat)",
+    "name_am": "ጸሎተ ፍትሐት እና ተዝካር",
+    "category": "Service",
+    "defaultEnabled": false,
+    "defaultInstructions": "1. Contact the church office or a Deacon/Father to schedule 3rd, 7th, 40th, 80th day, or annual memorial prayers (Fit'hat).\n2. Provide the baptismal name (Kristina Sim) of the departed prior to the morning Liturgy.",
+    "defaultInstructions_am": "1. የ3ኛ፣ የ7ኛ፣ የ40ኛ፣ የ80ኛ ቀን ወይም የሙት ዓመት ጸሎተ ፍትሐት ለማስደረግ አስቀድመው ለቤተክርስቲያኗ ያሳውቁ።\n2. ከቅዳሴ በፊት የሟችን የክርስትና ስም ለዲያቆኑ ወይም ለካህኑ ያስመዝግቡ።"
+  }
+]

@@ -1,0 +1,16 @@
+# Firebase App Hosting configuration (apphosting.yaml)
+# Controls Cloud Run runtime settings and environment variables.
+
+runConfig:
+  cpu: 1
+  memoryMiB: 512
+  minInstances: 0
+  maxInstances: 10
+  concurrency: 80
+
+env:
+  - variable: NEXT_PUBLIC_FIREBASE_PROJECT_ID
+    value: memenan-137b3
+    availability:
+      - BUILD
+      - RUNTIME

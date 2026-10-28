@@ -1,0 +1,96 @@
+[
+  {
+    "name": "Enkutatash (Ethiopian New Year)",
+    "name_am": "እንቁጣጣሽ (አዲስ ዓመት)",
+    "month": 1,
+    "day": 1,
+    "yearGroup": "late",
+    "note": "Meskerem 1 — September 11/12"
+  },
+  {
+    "name": "Kidus Yohannes (St. John's Day)",
+    "name_am": "ቅዱስ ዮሐንስ",
+    "month": 1,
+    "day": 1,
+    "yearGroup": "late",
+    "note": "Celebrated together with Enkutatash"
+  },
+  {
+    "name": "Meskel (Finding of the True Cross)",
+    "name_am": "መስቀል",
+    "month": 1,
+    "day": 17,
+    "yearGroup": "late",
+    "note": "Meskerem 17 — September 27"
+  },
+  {
+    "name": "Hidar Tsion (Feast of Zion)",
+    "name_am": "ኅዳር ጽዮን",
+    "month": 3,
+    "day": 21,
+    "yearGroup": "late",
+    "note": "Hidar 21 — November 30"
+  },
+  {
+    "name": "Genna (Ethiopian Christmas)",
+    "name_am": "ገና (የልደት በዓል)",
+    "month": 4,
+    "day": 29,
+    "yearGroup": "early",
+    "note": "Tahsas 29 — January 7"
+  },
+  {
+    "name": "Timkat (Ethiopian Epiphany)",
+    "name_am": "ጥምቀት",
+    "month": 5,
+    "day": 11,
+    "yearGroup": "early",
+    "note": "Ter 11 — January 19"
+  },
+  {
+    "name": "Adwa Victory Day",
+    "name_am": "የአድዋ ድል በዓል",
+    "month": 6,
+    "day": 23,
+    "yearGroup": "early",
+    "note": "Yekatit 23 — March 2"
+  },
+  {
+    "name": "Ethiopian Good Friday (Siklet)",
+    "name_am": "ስቅለት",
+    "month": null,
+    "day": null,
+    "yearGroup": "early",
+    "moveable": true,
+    "moveableKey": "fasika",
+    "offset": -2,
+    "note": "2 days before Fasika — moveable"
+  },
+  {
+    "name": "Fasika (Ethiopian Easter)",
+    "name_am": "ፋሲካ (ትንሣኤ)",
+    "month": null,
+    "day": null,
+    "yearGroup": "early",
+    "moveable": true,
+    "moveableKey": "fasika",
+    "offset": 0,
+    "note": "Ethiopian Easter — moveable feast"
+  },
+  {
+    "name": "Debre Zeyit (Ascension)",
+    "name_am": "ደብረ ዘይት (ዕርገት)",
+    "month": 9,
+    "day": 5,
+    "yearGroup": "early",
+    "note": "Ginbot 5 — May 13"
+  },
+  {
+    "name": "Pentecost (Erget)",
+    "name_am": "ጰራቅሊጦስ",
+    "month": 9,
+    "day": 15,
+    "yearGroup": "early",
+    "note": "Ginbot 15 — May 23"
+  }
+]

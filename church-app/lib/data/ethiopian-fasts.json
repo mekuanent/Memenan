@@ -1,0 +1,72 @@
+[
+  {
+    "id": "tsome-dihnet",
+    "name": "Wednesdays and Fridays Fast",
+    "name_am": "የድኅነት ጾም (ረቡዕ እና አርብ)",
+    "type": "periodic",
+    "rule": "wed-fri",
+    "exceptions": ["fasika-to-pentecost"],
+    "isDefault": true
+  },
+  {
+    "id": "abiy-tsom",
+    "name": "Great Lent (Abiy Tsom)",
+    "name_am": "ዐቢይ ጾም",
+    "type": "moveable",
+    "startOffset": -55,
+    "endOffset": -1,
+    "isDefault": true
+  },
+  {
+    "id": "tsome-nenewe",
+    "name": "Fast of Nineveh",
+    "name_am": "ጾመ ነነዌ",
+    "type": "moveable",
+    "startOffset": -69,
+    "endOffset": -67,
+    "isDefault": true
+  },
+  {
+    "id": "tsome-hawaryat",
+    "name": "Apostles' Fast",
+    "name_am": "የሐዋርያት ጾም",
+    "type": "moveable-to-fixed",
+    "startOffset": 50,
+    "endMonth": 11,
+    "endDay": 5,
+    "isDefault": true
+  },
+  {
+    "id": "tsome-filseta",
+    "name": "Fast of the Assumption",
+    "name_am": "ጾመ ፍልሰታ",
+    "type": "fixed",
+    "startMonth": 12,
+    "startDay": 1,
+    "endMonth": 12,
+    "endDay": 15,
+    "isDefault": true
+  },
+  {
+    "id": "tsome-nebiyat",
+    "name": "Fast of the Prophets",
+    "name_am": "ጾመ ነቢያት",
+    "type": "fixed",
+    "startMonth": 3,
+    "startDay": 15,
+    "endMonth": 4,
+    "endDay": 28,
+    "isDefault": true
+  },
+  {
+    "id": "tsome-gahad",
+    "name": "Fast of the Eve (Gahad)",
+    "name_am": "ጾመ ገሀድ",
+    "type": "fixed-multi",
+    "days": [
+      { "month": 5, "day": 10 },
+      { "month": 4, "day": 28 }
+    ],
+    "isDefault": true
+  }
+]

@@ -1,0 +1,85 @@
+[
+  {
+    "name": "New Year's Day",
+    "type": "fixed",
+    "month": 1,
+    "day": 1
+  },
+  {
+    "name": "MLK Jr. Day",
+    "type": "nth-weekday",
+    "month": 1,
+    "weekday": 1,
+    "nth": 3,
+    "note": "3rd Monday of January"
+  },
+  {
+    "name": "Presidents' Day",
+    "type": "nth-weekday",
+    "month": 2,
+    "weekday": 1,
+    "nth": 3,
+    "note": "3rd Monday of February"
+  },
+  {
+    "name": "Easter Sunday",
+    "type": "moveable",
+    "moveableKey": "western-easter",
+    "offset": 0,
+    "note": "Western Easter — moveable feast"
+  },
+  {
+    "name": "Good Friday",
+    "type": "moveable",
+    "moveableKey": "western-easter",
+    "offset": -2,
+    "note": "2 days before Easter"
+  },
+  {
+    "name": "Memorial Day",
+    "type": "last-weekday",
+    "month": 5,
+    "weekday": 1,
+    "note": "Last Monday of May"
+  },
+  {
+    "name": "Independence Day",
+    "type": "fixed",
+    "month": 7,
+    "day": 4
+  },
+  {
+    "name": "Labor Day",
+    "type": "nth-weekday",
+    "month": 9,
+    "weekday": 1,
+    "nth": 1,
+    "note": "1st Monday of September"
+  },
+  {
+    "name": "Thanksgiving Day",
+    "type": "nth-weekday",
+    "month": 11,
+    "weekday": 4,
+    "nth": 4,
+    "note": "4th Thursday of November"
+  },
+  {
+    "name": "Christmas Eve",
+    "type": "fixed",
+    "month": 12,
+    "day": 24
+  },
+  {
+    "name": "Christmas Day",
+    "type": "fixed",
+    "month": 12,
+    "day": 25
+  },
+  {
+    "name": "New Year's Eve",
+    "type": "fixed",
+    "month": 12,
+    "day": 31
+  }
+]

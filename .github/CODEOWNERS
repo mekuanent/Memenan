@@ -1,0 +1,10 @@
+# =============================================================================
+# CODEOWNERS
+# =============================================================================
+# Every Pull Request requires review & approval from the repository maintainer
+# before it can be merged into the main branch.
+# (Replace @meku with your exact GitHub handle if different)
+
+* @meku
+/church-app/lib/data/ @meku
+/church-app/lib/i18n/ @meku

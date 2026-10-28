@@ -1,0 +1,55 @@
+name: CI & App Hosting Verification
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate-and-build:
+    name: Validate Data & Build Next.js App
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./church-app
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: church-app/package-lock.json
+
+      - name: Validate Crowdsourced JSON Data Files
+        run: |
+          node -e '
+            const fs = require("fs");
+            const files = [
+              "lib/data/church-services.json",
+              "lib/data/ethiopian-holidays.json",
+              "lib/data/ethiopian-fasts.json",
+              "lib/data/gregorian-holidays.json"
+            ];
+            for (const f of files) {
+              const raw = fs.readFileSync(f, "utf8");
+              const parsed = JSON.parse(raw);
+              if (!Array.isArray(parsed) || parsed.length === 0) {
+                throw new Error(`${f} must be a non-empty JSON array.`);
+              }
+              console.log(`✓ Validated ${f} (${parsed.length} entries)`);
+            }
+          '
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: TypeScript Type Check
+        run: ./node_modules/.bin/tsc --noEmit
+
+      - name: Build Next.js Application
+        run: npm run build
